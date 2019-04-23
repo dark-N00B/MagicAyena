@@ -14,7 +14,7 @@ Module.register("clock",{
 		displaySeconds: true,
 		showPeriod: true,
 		showPeriodUpper: false,
-		clockBold: false,
+		clockBold: true,
 		showDate: true,
 		showWeek: false,
 		dateFormat: "dddd, LL",
@@ -81,11 +81,11 @@ Module.register("clock",{
 
 		var hourSymbol = "HH";
 		if (this.config.timeFormat !== 24) {
-			hourSymbol = "h";
+			hourSymbol = "[<span class=\"bold\">]h[</span>]";
 		}
 
 		if (this.config.clockBold === true) {
-			timeString = now.format(hourSymbol + "[<span class=\"bold\">]mm[</span>]");
+			timeString = now.format(hourSymbol + "[<span class=\"bold\">]:mm[</span>]");
 		} else {
 			timeString = now.format(hourSymbol + ":mm");
 		}
