@@ -1,4 +1,4 @@
-**MagicAyena** is an open source modular smart mirror platform forked from MagicMirror². With a growing list of installable modules, the **MagicMirror²** allows you to convert your hallway or bathroom mirror into your personal assistant. **MagicAyena** is built  with the incredible help of a [growing community of contributors](https://github.com/MichMich/MagicMirror/graphs/contributors).
+**MagicAyena** is an open source modular smart mirror platform forked from MagicMirror². With a growing list of installable modules, the **MagicAyena** allows you to convert your hallway or bathroom mirror into your personal assistant. **MagicAyena** is built  with the incredible help of a [growing community of contributors](https://github.com/MichMich/MagicMirror/graphs/contributors).
 
 MagicAyena focuses on a modular plugin system and uses [Electron](http://electron.atom.io/) as an application wrapper. So no more web server or browser installs necessary!
 
